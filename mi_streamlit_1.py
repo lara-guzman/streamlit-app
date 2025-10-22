@@ -14,7 +14,7 @@ import pickle
 st.set_page_config(layout='centered', page_title='Talento Tech Innovador', page_icon=':penguin:')
 
 t1, t2 = st.columns([0.3, 0.7])
-t1.image('./index.jpg', width=180)
+t1.image('index.jpg', width=180)
 t2.title('Mi primer tablero')
 t2.markdown('**Tel:** 123 **| Email:** talentotech@gmail.com')
 
